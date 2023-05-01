@@ -224,6 +224,20 @@
         top: 75px;
         font-size: 30px;
     }
+    @media (max-width: 280px)
+.div-1-row-2-head-1 {
+    color: white;
+    /* text-align: end; */
+    /* display: inline; */
+    /* position: relative; */
+    /* right: 0; */
+    position: relative;
+    right: 28px;
+    /* float: right; */
+    top: 75px;
+    font-size: 20px;
+    width: 100%;
+}
     .div-1-row-2-head-1 {
         color: white;
         /* text-align: end; */
