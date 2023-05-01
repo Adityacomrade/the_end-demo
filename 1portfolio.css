@@ -1,0 +1,377 @@
+
+.colors{
+    background-color: #310707;
+    color: white;
+    border-bottom:1px solid balck ;
+    top: 0PX;
+    z-index: 99999999;
+}
+
+.div-1-sec-1 img{
+    width: 100%;
+
+}
+
+
+
+.navigation{
+    color: white;
+    
+    font-size: 22px;
+    margin-right: 36px;
+    font-family: 'Castoro Titling';
+}
+.Acti-ve{
+    color:orange;
+    text-decoration: underline;
+    animation-name: nav;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes nav{
+    from{
+        font-size: 22px;
+        color: white;
+    }
+    to{
+        /* font-size: 23px; */
+        color: orangered;
+    }
+}
+
+.navigation-1{
+    color: white;
+    
+    font-size: 22px;
+    font-family: 'Castoro Titling';
+    
+}
+.navigation:hover{
+    color: orangered;
+    text-decoration:underline
+}
+.navigation-1:hover{
+    color: orangered;
+    text-decoration:underline
+
+}
+.icon-head-1{
+    color: white;
+    font-size: 23px;
+    margin-right: 12px;
+
+}
+.row-1-sec-1{
+    align-items: center;
+    padding: 0px;
+    background: #364655;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.head-1{
+    background: url('paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+    height: 100vh;
+}
+
+.clouds {
+    position: absolute;
+    top: 102 ;
+    left: 0;
+    
+    ;
+    display: block;
+    width: 100%;
+    filter: contrast(6.5);
+    height: 337px;
+    background-image: url(./bg-clouds\ \(1\).png);}
+    .clouds {
+        -webkit-animation: clouds 15s infinite linear;
+        -moz-animation: clouds 15s infinite linear;
+        -ms-animation: clouds 15s infinite linear;
+        -o-animation: clouds 15s infinite linear;
+        animation: clouds 15s infinite linear;}
+
+
+
+  @keyframes clouds{
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: -1000px 0;}
+        }
+
+
+
+
+        .span-1-sec-7 {
+            position: relative;
+            color: orangered;
+            font-family: 'Castoro Titling';
+            margin-right: 9px;
+            font-size: 73px;
+        }
+        .span-2-sec-7 {
+            font-family: 'Castoro Titling';
+            font-size: 62px;
+        }
+        
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 543px;
+        }        
+        .row-head-1{
+            height: 500px;
+    align-items: center;
+    justify-content: center;
+        }
+        .div-1-sec-7{
+            text-align: center;
+        }
+        .para-1{
+            text-align: center;
+            font-style: italic;
+            color: WHITE;
+        }
+        .head-2{
+            background: url(./pexels-tyler-lastovich-850674\ \(1\).jpg);
+            background-position: center;
+            background-size: cover;
+            background-size: cover;
+            width: 100%;
+            height: 112vh;
+            position: relative;
+        }
+        .head-2::before{position: absolute;
+            width: 100%;
+            height: 100%;
+            content: "";
+            /* background-color: black; */
+    
+            background-image: linear-gradient(to top, #443d3d3d , #f1f1f1a8);
+
+
+        }
+        .div-1-head-2{
+            text-align: center;
+            position: relative;
+        }
+        .div-1-head-2 h2{
+            color:#79573c;
+            font-style: italic;
+            margin-top: 20px;
+            margin-bottom: 29px;
+        }
+        .div-line{
+            position: relative;
+        }
+        .div-line::after{
+            width: 2px;
+            height: 72px;
+            position: absolute;
+            content: "";
+            background: black;
+            top: -15px;
+            background-color: #79573c;
+        
+        }
+        .btn-head-11{
+            margin-top: 63px;
+            background: #ffffff0f;
+    font-style: italic;
+    padding: 8px;
+    border: 1px solid;
+    border: none;
+    border: 1px solid #79573c;
+
+
+        }
+        .para-1-last{
+            font-style: italic;
+            
+        }
+        .icon-bars-1{
+            color: black;
+        }
+
+
+        @media(max-width:1024px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 452px;
+            }
+        }
+        @media(max-width:983px){
+            .navbar {
+                position: relative;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                padding: 0.5rem 1rem;
+                justify-content: end;
+            }
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 329px;
+            }
+            .col-media{
+                display: none;
+            }
+        }
+        @media(max-width:741px){
+            .div-1-sec-1 img {
+                width: 54%;
+            }
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 245px;
+            }
+        }
+        @media(max-width:568px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 258px;
+            }
+        }
+
+        @media(max-width:461px){
+
+
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 205px;
+
+                
+        }}
+        @media(max-width:414px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 181px;
+            }
+        }
+        @media(max-width:375px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 162px;
+            }
+            
+        }
+        @media(max-width:360px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 154px;
+            }
+        }
+        @media(max-width:357px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 122px;
+                width: 7px;
+                transform: rotate(19deg);
+                position: absolute;
+                top: -13px;
+                right: 147px;
+            }
+        }
+        @media (max-width:280px){
+            .span-2-sec-7::before {
+                position: relative;
+                content: "";
+                background-color: white;
+                height: 164px;
+                width: 7px;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 24px;
+                right: 147px;
+            }
+        }
