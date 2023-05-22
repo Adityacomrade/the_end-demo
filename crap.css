@@ -120,6 +120,26 @@
 
   
 }
+
+@media(max-width:988px){
+    .navigation {
+        color: white;
+        font-size: 22px;
+        /* margin-right: 36px; */
+        font-family: 'Castoro Titling';
+        margin-right: 0px;
+        
+    }
+    .navigation-1 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Castoro Titling';
+    
+}
+.div-1-head-1 img {
+    width: 37%;
+}
+}
 @media(max-width:598px){
     .div-1-row-2-head-1 {
         color: white;
@@ -147,6 +167,26 @@
         width: 7px;
         transform: rotate(22deg);
         position: absolute;
+    }
+}
+
+@media(max-width:454px){
+    .navigation {
+        color: white;
+        font-size: 16px;
+        /* margin-right: 36px; */
+        font-family: 'Castoro Titling';
+        margin-right: 0px;
+        width: 65px;
+    }
+    .navigation-1 {
+        color: white;
+        font-size: 16px;
+        font-family: 'Castoro Titling';
+        width: 68px;
+    }
+    .div-1-head-1 img {
+        width: 67%;
     }
 }
 @media(max-width:358px){
@@ -250,6 +290,24 @@
         top: 75px;
         font-size: 29px;
     }
+        .span-head-1 {
+        position: relative;
+        color: orangered;
+        font-family: 'Castoro Titling';
+        margin-right: 9px;
+        font-size: 35px;
+    }
+    
+    .span-head-1::after {
+    position: relative;
+    content: "";
+    background-color: white;
+    height: 54px;
+    width: 4px;
+    transform: rotate(22deg);
+    position: absolute;
+}
+    
 }
 @media(max-width:270px){
 .div-1-row-2-head-1 {
